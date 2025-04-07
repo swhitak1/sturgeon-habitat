@@ -1,4 +1,3 @@
-# sturgeon-habitat
 # Atlantic Sturgeon Habitat Modeling
 
 **Tools Used:** R, QGIS, Logistic Regression
