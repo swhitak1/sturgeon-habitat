@@ -13,8 +13,7 @@ Atlantic sturgeon are an anadromous, keystone species whose survival is directly
 - Wrote the full report and developed the presentation for academic and conservation audiences.  
 
 ### 📄 Project Files
-- 📕 [Full Manuscript](./SWhitaker_Full_Manuscript.pdf) – Complete report with methodology, analysis, and conservation implications.  
-- 🖥️ [Project Presentation](./sturgeon_presentation.pdf) – Visual summary of key findings and workflow.  
+- 📕 [Full Manuscript](./sturgeonmanuscript.pdf) – Complete report with methodology, analysis, and conservation implications.    
 - 🗺️ [Seasonal Habitat Maps](./seasonalmaps.gif) – Animated visualization of predicted habitat suitability.  
 
 ### 🔬 Tools
