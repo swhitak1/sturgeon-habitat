@@ -1,33 +1,30 @@
-# 🐟 Atlantic Sturgeon Habitat Suitability Modeling in the Chesapeake Bay
+# 🐟 Atlantic Sturgeon Habitat Suitability Modeling
 
-### 📍 Project Overview
-This project models seasonal habitat suitability for **Atlantic sturgeon (Acipenser oxyrinchus)** across Chesapeake Bay tributaries using multivariate water quality data and geospatial analysis. The study integrates logistic regression modeling in R with hydrologically corrected spatial processing in QGIS to identify critical habitats for this federally endangered species.
+### 📍 Overview
+This project models seasonal habitat suitability for **Atlantic sturgeon (Acipenser oxyrinchus)** in Chesapeake Bay tributaries using USGS and NOAA water quality datasets. The analysis integrates logistic regression in R with GIS-based spatial modeling to identify critical habitats for this federally endangered species.
 
-### 🔬 Research Significance
-Atlantic sturgeon are a keystone, anadromous species whose recovery is directly linked to riverine habitat quality. Identifying environmental thresholds and spatial patterns of suitability informs ongoing conservation and restoration efforts in the Chesapeake watershed.  
+### 🌊 Research Significance
+Atlantic sturgeon are an anadromous, keystone species whose survival is directly tied to riverine habitat quality. Chesapeake Bay populations have declined drastically due to habitat loss and overfishing. Identifying environmental thresholds and predicting seasonal habitat patterns provides critical data for ongoing conservation and restoration initiatives.
 
-### 🧪 Methodology
-- **Data Sources:** USGS National Water Information System (NWIS), NOAA Chesapeake Bay Environmental Data  
-- **Variables:** Temperature, dissolved oxygen, pH, turbidity, nitrate, conductance, and discharge  
-- **Analysis:**  
-  - Binary habitat classification based on published ecological thresholds  
-  - Logistic regression (full, reduced, and regularized models) with ROC/AUC evaluation  
-  - Seasonal predictions rasterized in QGIS with GRASS GIS hydrological correction  
-
-### 🌊 Key Outputs
-- Seasonal habitat suitability maps across major tributaries  
-- ROC and AUC performance comparisons of multiple models  
-- Variable importance analysis for environmental predictors  
-- A reproducible workflow combining statistical modeling with GIS visualization  
-
-### 📎 Tools & Techniques
-- **R:** glm, caret, glmnet, pROC  
-- **GIS:** QGIS, GRASS GIS, ArcGIS Pro for cartographic refinement  
-- **Visualization:** Seasonal raster maps, ROC curves, and environmental response plots
-
-### 📖 Links
+### 👩‍💻 My Role
+- Designed and implemented all statistical modeling and geospatial workflows.  
+- Conducted logistic regression and regularized models to evaluate environmental predictors.  
+- Processed and visualized seasonal suitability maps using QGIS and GRASS GIS.  
+- Wrote the full report and developed the presentation for academic and conservation audiences.  
 
 ### 📄 Project Files
-- 📕 [Full Manuscript](./SWhitaker_Full_Manuscript.pdf) – Complete research paper with methodology, analysis, and conservation implications.
-- 🖥️ [Presentation](./Sturgeon_Presentation.pdf) – Condensed visual summary of methods, results, and key findings.
-- 🗺️ [Seasonal Habitat Maps](./seasonal_maps.gif) – Animated visualization of predicted habitat suitability across seasons.
+- 📕 [Full Manuscript](./SWhitaker_Full_Manuscript.pdf) – Complete report with methodology, analysis, and conservation implications.  
+- 🖥️ [Project Presentation](./sturgeon_presentation.pdf) – Visual summary of key findings and workflow.  
+- 🗺️ [Seasonal Habitat Maps](./seasonalmaps.gif) – Animated visualization of predicted habitat suitability.  
+
+### 🔬 Tools
+- **R:** glm, caret, glmnet, pROC  
+- **GIS:** QGIS, GRASS GIS, ArcGIS Pro  
+- **Data:** USGS NWIS, NOAA Chesapeake Bay water quality datasets  
+
+### 🚀 Future Directions
+- Incorporate long-term time series to analyze interannual variability in habitat suitability.  
+- Integrate telemetry data to validate model predictions with sturgeon movement patterns.  
+- Develop a dynamic, interactive GIS tool for managers to visualize habitat suitability under different environmental scenarios and climate change projections.  
+
+> *Full R source code available upon request.*
